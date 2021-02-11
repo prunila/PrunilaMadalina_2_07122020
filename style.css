@@ -1,0 +1,538 @@
+#page
+{max-width: 100%;
+    min-width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding:0.8rem;
+}
+section,nav,header,footer
+{
+    display: block;
+
+}
+
+body
+{
+    font-weight:300;
+    width: 100%;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 99%;
+    background-color: rgb(250, 242, 244);
+}
+#logo
+{
+    display: flex;
+    justify-content: flex-start;
+}
+h1
+{
+    font-weight: 700;
+	font-size: 1.1rem;
+	color: #000000;
+}
+h2{
+    font-weight: 700;
+	font: size 0.9rem;
+	color: #000000;
+}
+h3
+{
+    font-weight: 700;
+	font-size:0.7rem;
+	color: #000000;
+}
+h4
+{
+    font-weight: 400;
+    color: #000000;
+    
+}
+nav
+{ 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    width: 31.25rem;
+    background-color: rgb(245, 253, 253);
+}
+ nav ul
+    { 
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: flex-end;
+        width:50%;
+        order: 0;
+    text-decoration: none;
+background-color: rgb(219, 245, 219);
+}
+#global /*container global*/
+{
+	display: inline-flex;
+    justify-content: space-around;
+    background-color: cadetblue;
+}
+#sectionlocation
+{
+	display: flex;
+	flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+	max-width: 65%;
+	border-radius: 0.9rem;
+background-color:cornsilk;
+}
+#sectionlocation a
+{
+    background-color: darkgreen;
+    border-radius: 1rem;
+    box-shadow: aqua;
+    margin:1.5rem;
+}
+#lespluspopulaires /*grand conteneur*/
+    {
+        max-width: 40%; 
+        background-color: cornsilk;
+        border-radius: 0.9rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+    }
+
+#lesplupopulaires a
+
+    {
+        text-decoration: none;
+        background-color: #fff;
+        border-radius: 1rem;
+        box-shadow: 0.6rem 0.06rem 0.3rem 0rem #e0e0e0;
+        margin: 1rem 2rem;
+    }
+
+#lespluspopulaires a :hover
+{
+    opacity: 0.8;
+}
+.activites
+{ 
+font-weight: 400;
+font-size: 0.9rem;
+color: #000000;
+text-decoration: none;
+padding-top: 1.3rem;
+background-color: darkslategrey;
+}     
+#Sejour
+{ 
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+align-items: center;
+align-content: space-around;
+max-width: 65%;
+background-color: #F2F2F2;
+border-radius: 0.9rem;}
+#Sejour a
+{
+    background-color: #fff;
+border-radius: 1rem;
+box-shadow: 0.6rem 0.06rem 0.3rem 0rem #e0e0e0;
+margin: 1.5rem;
+border-top: 0.125rem solid black;
+}
+#Sejour a:hover
+{
+    border-top: 0.125rem solid black;
+}
+p {
+color: black;
+}
+
+a:visited {
+    color:blue;
+}
+/*quanD le visiteur a déja visité la page*/
+#inscription
+/*le bouton ??????????*/
+   {
+       display: flex;
+       justify-content: flex-end;
+       width: 0.3rem;
+   }
+#inscription a
+{
+font-size: 0.9rem;
+color: #0065FC;
+font-weight: 700;
+text-decoration: none;
+padding-top: 1.563rem;
+}
+#inscription a:hover
+{
+color: #000000;
+font-weight: 500;
+border-top: 0.125rem solid black;
+}
+#iconei /*icone rechercher*/
+{
+    display:flex;
+    justify-content: center;
+}
+#marker i /*la place*/
+{
+    font-size: 1rem;
+    display: flex;
+    width: 3.125rem;
+    height: 2.5rem;
+    background-color: #F2F2F2;
+    border-radius: 0.9rem 0rem 0rem 0.9rem;	
+    align-items: center;
+    justify-content: space-around;
+}
+#search input
+{
+    display: flex;
+    background-color: #ffffff;
+    width: 9.375rem;
+    height: 2.5rem;
+    align-items: center;
+    justify-content: space-around;
+    border : 0.125rem #F2F2F2 solid;
+    font-size: 0.75rem;
+    font-weight: 800;
+}
+
+ul
+{
+list-style: none;
+}
+#boite1
+{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 0.7rem;
+    background-color: rgb(206, 200, 200);
+}
+
+#boite2
+ {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 15rem;
+    height: 10rem;
+    border: 0.3rem;
+    border-radius: 0.8rem;
+    background-color: rgb(235, 233, 224);
+}
+#boite3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 15rem;
+    height: 10rem;
+    border: 0.3rem;
+    border-radius: 0.8rem;
+    background-color: gold;
+}
+#boite4
+{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 15rem;
+    height: 10rem;
+    border: 0.3rem;
+    border-radius: 0.8rem;
+        background-color:red
+}
+
+#boite5
+{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 15rem;
+    height: 10rem;
+    border: 0.3rem;
+    border-radius: 0.8rem;
+        background-color:green
+}
+#boite6
+{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 15rem;
+    height: 10rem;
+    border: 0.3rem;
+    border-radius: 0.8rem;
+        background-color:blue
+}
+#boite7
+ {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 15rem;
+    height: 10rem;
+    border: 0.3rem;
+    border-radius: 0.8rem;
+    background-color: gold;
+}
+#afficherplus
+{
+    width: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+    #afficherplus a
+    {
+        text-decoration: none;
+	background-color: transparent;
+	border-radius: 0rem;
+	box-shadow: none;
+	margin: 0rem 0rem 0.9rem 0rem;
+    }
+#boite9
+{
+    display: flex;
+    flex-direction: row;
+	width: 80%;
+	justify-content: space-between;
+	margin:1rem;
+}
+.hebergements
+{
+    border-top:0.1 solid black;
+}
+.hebergements a, .barre a
+{
+    font-weight: 400;
+	font-size: 0.9rem;
+	color: #000000;
+	text-decoration: none;
+	padding-top: 1.3rem;
+}
+.hebergements a:hover, .barre a:hover /*barre survol*/
+{
+    color:blue;
+    border-top: 0.125rem solid;
+}
+#partierecherche /* conteneur global*/
+{
+    display: flex;
+	flex-direction: column;
+    margin-top: 1.25rem;
+}
+#deuxtextes /*titre*/
+{
+    display: flex;
+	flex-direction: column;
+    line-height: 150%; 
+    background-color: rgb(235, 241, 229);
+}
+
+#boutonrecherche{
+    display: flex;
+    color: white;
+    width: 5.rem;
+    background-color: rgb(238, 238, 248);
+    border-radius: 0rem 0.9rem 0.9rem 0rem;
+    align-items: center;
+    justify-items: flex-start;
+    cursor: pointer;
+}
+#boutonrecherche input
+{
+        display: flex;
+        background-color: #ffffff;
+        width: 9.375rem;
+        height: 2.5rem;
+        align-items: center;
+        justify-content: space-around;
+        border : 0.125rem #F2F2F2 solid;
+        font-size: 0.75rem;
+        font-weight: 800;
+}
+#boutonrecherche h4
+{
+	display: flex;
+	color: #ffffff;
+	width: 6.25rem;
+	height: 2.5rem;
+	background-color: #0065FC;
+	border-radius: 0rem 0.9rem 0.9rem 0rem;
+	align-items: center;
+	justify-content: first baseline;
+	cursor: pointer;
+}
+#boitefiltre /*boite globale filtre*/
+{
+    display: flex;
+	flex-flow: row wrap;
+    justify-content: space-around;
+    max-width: 50rem;
+    height: 7.5rem;
+    background-color: white;
+}
+#filtre
+{ display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+	align-items: center;
+	align-content: flex-end;
+    width: 100%;
+    color: #d9dee4;
+ }
+#titre
+{
+    display: flex;
+}
+#billets, #enfant, #coeur, #chien
+{
+    display: flex;
+    align-items:center;
+  color: #0065FC;
+}
+#filtre i /*icones*/
+{
+    display: flex;
+	align-items: center;
+	color: #0e66eb;
+	background-color: #eff4fc;
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 50%;
+	justify-content: space-around;
+	position:absolute;
+	z-index: 2;
+}
+#filtre i:hover
+{
+    color: #0065FC;
+	background-color: #ffffff;
+	border: 0.06rem #4288f0 dashed;
+	cursor: pointer;
+}
+#filtre h3 /*NOM FILTRES*/
+{
+    display: flex;
+	align-items: center; 
+	width: 100%;
+	height: 2.5rem;
+	padding: 0rem 0.9rem 0rem 3.125rem;
+	background-color:#ffffff ;
+	border-radius: 9.375rem 9.375rem 9.375rem 9.375rem;
+	border : 0.19rem #f8efef solid;
+	position: relative;
+	z-index: 1;
+}
+#filter h3:hover
+{
+    border : 0.06rem #f508ba solid;
+	border-radius: 9.375rem 9.375rem 9.375rem 9.375rem;
+}
+#info
+{
+    display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	width: 100%;
+}
+#info i
+{
+    display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 0.7rem;
+	color: #0065FC;
+	background-color: #ffffff;
+	border: 0.06rem #F2F2F2 solid;
+	width: 1.3rem;
+	height: 1.3rem;
+	border-radius: 50%;
+	margin:0.3rem;
+}
+#boite10, #boite11, #boite12 
+{
+    width: 18rem;
+	height: 10rem;
+	border: 0.3rem #ffffff solid;
+	border-radius: 0.9rem;
+	display: flex;
+	flex-direction: row;
+}
+#texte7 
+{
+    width: 9rem;
+	height: 5.25rem;
+	display: flex;
+	flex-direction: column;
+	padding-top: 0.5rem; 
+}
+
+.box .imgbox
+{
+    width: 150px;
+    flex: 0 0 150px;
+    max-width: 100%;
+}
+#lesactivites
+{
+    background-color: tomato;
+    display: flex;
+    max-width: 100%;
+    min-width: 100%;
+    width: 18rem;
+    height: 10rem;
+
+}
+#boite13
+{
+    background-color: turquoise;
+    display: flex;
+    flex-direction: row;
+	width: 80%;
+	justify-content: space-between;
+	margin:1rem;
+
+}
+#boite14
+{background-color: white;
+}
+
+
+
+
+
+
+
+
+
+figure
+{
+
+}
+
+
+
+
+
+figure img
+{
+    max-width: 100%;
+}
+

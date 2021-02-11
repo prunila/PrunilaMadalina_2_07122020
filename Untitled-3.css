@@ -1,0 +1,29 @@
+
+#bille
+{
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+}
+body
+{
+    background-color: blueviolet;
+}
+h1
+{
+    display: flex;
+    justify-content: center;
+   margin-top: 00.8rem;
+    background-color: darkblue;
+}
+#mabulle
+{
+    display: flex;
+    justify-content: end;
+    margin-top: 0.5rem;
+    max-width: 50%;
+    min-width: 50%;
+    margin-bottom: 0.3rem;
+    background-color: darkgoldenrod;
+
+}
