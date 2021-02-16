@@ -231,17 +231,17 @@ list-style: none;
     height: 10rem;
     border: 0.3rem;
     border-radius: 0.8rem;
-    background-color: rgb(235, 233, 224);
+    background-color: greenyellow;
 }
 #boite3 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 15rem;
-    height: 10rem;
+    
     border: 0.3rem;
     border-radius: 0.8rem;
-    background-color: gold;
+    background-color:tomato;
 }
 #boite4
 {
@@ -252,7 +252,7 @@ list-style: none;
     
     border: 0.3rem;
     border-radius: 0.8rem;
-        background-color:red
+        background-color:rgb(219, 245, 219);
 }
 
 #boite5
@@ -261,10 +261,10 @@ list-style: none;
         flex-direction: row;
         flex-wrap: wrap;
         width: 15rem;
-    height: 10rem;
+    
     border: 0.3rem;
     border-radius: 0.8rem;
-        background-color:green
+        background-color:green;
 }
 #boite6
 {
@@ -272,10 +272,10 @@ list-style: none;
         flex-direction: row;
         flex-wrap: wrap;
         width: 15rem;
-    height: 10rem;
+    
     border: 0.3rem;
     border-radius: 0.8rem;
-        background-color:blue
+        background-color:blue;
 }
 #boite7
  {
@@ -283,7 +283,7 @@ list-style: none;
     flex-direction: row;
     flex-wrap: wrap;
     width: 15rem;
-    height: 10rem;
+    
     border: 0.3rem;
     border-radius: 0.8rem;
     background-color: gold;
@@ -504,6 +504,7 @@ list-style: none;
 	width: 80%;
 	justify-content: space-between;
 	margin:1rem;
+    height: auto;
 
 }
 #boite14
@@ -520,7 +521,7 @@ list-style: none;
 
 figure
 {
-
+max-width: 100%;
 }
 
 
