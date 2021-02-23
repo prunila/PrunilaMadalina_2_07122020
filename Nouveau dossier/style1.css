@@ -1,0 +1,239 @@
+style1.css
+#page
+{max-width: 100%;
+    min-width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding:0.8rem;
+}
+body
+{
+    font-weight:300;
+    width: 100%;
+}
+a:visited
+{
+    color:blue;
+}
+/*titres*/
+h1
+{
+    font-weight: 700;
+	font-size: 1.1rem;
+	color: #000000;
+}
+h2{
+    font-weight: 700;
+	font: size 0.9rem;
+	color: #000000;
+}
+h3
+{
+    font-weight: 700;
+	font-size:0.7rem;
+	color: #000000;
+}
+h4
+{
+    font-weight: 400;
+    color: #000000;
+    
+}
+p {
+    color: black;
+    }
+/*header*/
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 99%;
+    background-color:#ffffff;
+}
+#logo
+{
+    display: flex;
+    justify-content: flex-start;
+}
+nav
+{ 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    width: 31.25rem;
+    background-color:#ffffff;
+}
+nav ul
+{ 
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    width:50%;
+    order: 0;
+text-decoration: none;
+background-color:#ffffff;
+}
+ul
+{
+list-style: none;
+}
+.hebergements
+{
+    border-top:0.1 solid black;
+}
+.hebergements a, .barre a
+{
+    font-weight: 400;
+	font-size: 0.9rem;
+	color: #000000;
+	text-decoration: none;
+	padding-top: 1.3rem;
+}
+.hebergements a:hover, .barre a:hover /*barre survol*/
+{
+    color:blue;
+    border-top: 0.125rem solid;
+}
+#Sejour
+{ 
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+align-items: center;
+align-content: space-around;
+max-width: 65%;
+background-color: #F2F2F2;
+border-radius: 0.9rem;}
+#Sejour a
+{
+    background-color: #fff;
+border-radius: 1rem;
+box-shadow: 0.6rem 0.06rem 0.3rem 0rem #e0e0e0;
+margin: 1.5rem;
+border-top: 0.125rem solid black;
+}
+#Sejour a:hover
+{
+    border-top: 0.125rem solid black;
+}
+.activites
+{ 
+font-weight: 400;
+font-size: 0.9rem;
+color: #000000;
+text-decoration: none;
+padding-top: 1.3rem;
+background-color: darkslategrey;
+} 
+#inscription
+/*le bouton ??????????*/
+   {
+       display: flex;
+       justify-content: flex-end;
+       width: 0.3rem;
+   }
+#inscription a
+{
+font-size: 0.9rem;
+color: #0065FC;
+font-weight: 700;
+text-decoration: none;
+padding-top: 1.563rem;
+}
+#inscription a:hover
+{
+color: #000000;
+font-weight: 500;
+border-top: 0.125rem solid black;
+}
+#partierecherche /* conteneur global*/
+{
+    display: flex;
+	flex-direction: column;
+    margin-top: 1.25rem;
+}
+#deuxtextes /*titre*/
+{
+    display: flex;
+	flex-direction: column;
+    line-height: 150%; 
+    background-color: #ffffff;
+}
+#boutonrecherche{
+    display: flex;
+    color: white;
+    width: 5.rem;
+    background-color: #ffffff;
+    border-radius: 0rem 0.9rem 0.9rem 0rem;
+    align-items: center;
+    justify-items: flex-start;
+    cursor: pointer;
+}
+#boutonrecherche input
+{
+        display: flex;
+        background-color: #ffffff;
+        width: 9.375rem;
+        height: 2.5rem;
+        align-items: center;
+        justify-content: space-around;
+        border : 0.125rem #F2F2F2 solid;
+        font-size: 0.75rem;
+        font-weight: 800;
+}
+#boutonrecherche h4
+{
+	display: flex;
+	color: #ffffff;
+	width: 6.25rem;
+	height: 2.5rem;
+	background-color: #0065FC;
+	border-radius: 0rem 0.9rem 0.9rem 0rem;
+	align-items: center;
+	justify-content: first baseline;
+	cursor: pointer;
+}
+#marker i /*la place*/
+{
+    font-size: 1rem;
+    display: flex;
+    width: 3.125rem;
+    height: 2.5rem;
+    background-color: #F2F2F2;
+    border-radius: 0.9rem 0rem 0rem 0.9rem;	
+    align-items: center;
+    justify-content: space-around;
+}
+#search input
+{
+    display: flex;
+    background-color: #ffffff;
+    width: 9.375rem;
+    height: 2.5rem;
+    align-items: center;
+    justify-content: space-around;
+    border : 0.125rem #F2F2F2 solid;
+    font-size: 0.75rem;
+    font-weight: 800;
+}
+#boite3, #boite4, #boite5, #boite6 ,#boite7
+{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   width: 15rem;
+   border: 0.3rem;
+   border-radius: 0.8rem;
+   background-color: rgb(252, 252, 252);
+}
+#boite3 i,#boite4 i,#boite5 i,#boite6 i,#boite7 i
+{
+	display: inline-flex;
+	flex-wrap: nowrap;
+	font-size: 0.75rem;
+	align-content: space-around;
+	color: #0065FC;
+}
