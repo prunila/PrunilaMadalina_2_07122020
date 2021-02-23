@@ -219,12 +219,12 @@ color: #000000;
 font-weight: 500;
 border-top: 0.125rem solid black;
 }
-#iconei /*icone rechercher*/
+#icone i /*icone rechercher*/
 {
     display:flex;
     justify-content: center;
 }
-#marker i /*la place*/
+#marker i /*gps icone*/
 {
     font-size: 1rem;
     display: flex;
@@ -253,7 +253,7 @@ border-top: 0.125rem solid black;
     display: inline-flex;
 	justify-content: space-around;
 }
-#boite1
+#boite1 /*TITRE HEBERGEMENTS A MARSEILLE*/
 {
     width: 90%;
     display: flex;
@@ -263,71 +263,38 @@ border-top: 0.125rem solid black;
     background-color:rgb(230, 230, 217); 
 }
 
-#boite2
- {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 15rem;
-    border: 0.3rem;
-    border-radius: 0.9rem;
-    background-color: rgb(252, 252, 252);
-}
-#boite3 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 15rem;
-    
-    border: 0.3rem;
-    border-radius: 0.8rem;
-    background-color:rgb(252, 252, 252);
-}
-#boite4
-{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 15rem;
-    
-    border: 0.3rem;
-    border-radius: 0.8rem;
-        background-color:rgb(252, 252, 252);
-}
 
-#boite5
-{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 15rem;
-    border: 0.3rem;
-    border-radius: 0.8rem;
-        background-color:rgb(252, 252, 252);
-}
-#boite6
-{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 15rem;
-    
-    border: 0.3rem;
-    border-radius: 0.8rem;
-        background-color:rgb(250, 250, 250);
-}
-#boite7
- {
-    display: flex;
+.boite
+{   display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 15rem;
-    
     border: 0.3rem;
     border-radius: 0.8rem;
-    background-color: rgb(255, 253, 239);
+    background-color: rgb(252, 252, 252);
+  
 }
-#boxafficher
+.boite img 
+    {
+        width: 100%;
+        display: inline-flex;
+        flex-wrap: nowrap;
+        font-size: 0.75rem;
+        align-content: space-around;
+        color: #0065FC;
+    }
+
+.legende
+{
+    display: flex;
+    justify-content:flex-start;
+    margin:0.rem 0rem 0rem 0.5rem
+}
+.legende p
+{
+    margin-top: 0.3rem;
+}
+.boxafficher
 {
     width: 90%;
 	display: flex;
@@ -343,7 +310,7 @@ border-top: 0.125rem solid black;
 	margin: 0rem 0rem 0.9rem 0rem;
     }
 
-#boite9
+#boite9 /*titre les plus populaires*/
 {
     display: flex;
     flex-direction: row;
@@ -398,6 +365,10 @@ border-top: 0.125rem solid black;
 	align-items: center;
 	justify-content: first baseline;
 	cursor: pointer;
+}
+#iconerechercher
+{
+    display: none;
 }
 #boitefiltre /*boite globale filtre*/
 {
@@ -459,7 +430,7 @@ border-top: 0.125rem solid black;
 	position: relative;
 	z-index: 1;
 }
-#filter h3:hover
+#filtre h3:hover
 {
     border : 0.06rem #f508ba solid;
 	border-radius: 9.375rem 9.375rem 9.375rem 9.375rem;
@@ -485,23 +456,7 @@ border-top: 0.125rem solid black;
 	border-radius: 50%;
 	margin:0.3rem;
 }
-#boite10, #boite11, #boite12 
-{
-    width: 18rem;
-	height: 8rem;
-	border: 0.3rem #ffffff solid;
-	border-radius: 0.9rem;
-	display: flex;
-	flex-direction: row;
-}
-#boite10 i, #boite11 i, #boite12 i
-{
-	display: inline-flex;
-	flex-wrap: nowrap;
-	font-size: 0.75rem;
-	margin-top: 1rem;
-	color: #0065FC;
-}
+
 .box .imgbox
 {
     width: 150px;
@@ -517,34 +472,18 @@ border-top: 0.125rem solid black;
     justify-content: space-between;
 
 }
-#boite13
-{width: 50rem;
-    background-color: turquoise;
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 2.5rem;
 
-}
-#boite14 
-{
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    width: 19rem;
-     border: 0.3rem;
-    border-radius: 0.8rem 0.6rem 0.6rem 0.6rem;
-    
-}
-#boite17
-{
-    background-color: rgb(206, 156, 181);
-}
 .etoiles
 {
-    margin-top: 0.4rem;
+    margin-top: 0.3rem;
 }
 
-
+#lesactivites h1
+{
+    display: inline-flex;
+    margin: 3rem 0rem 2 rem;
+    width: 100%;
+}
 
 
 
@@ -558,7 +497,7 @@ figure
 figure img
 {
     max-width: 50%;
-    max-height: 60%;;
+    max-height: 60%;
 }
 #img9,#img8,#img10
 {
@@ -571,9 +510,6 @@ figure img
     width:9rem;
     padding-top:0.4rem;
 }
-
-
-
 img
 {
     width: 98%;

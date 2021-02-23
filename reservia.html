@@ -38,7 +38,7 @@
                 <div id="marker"><i class="fas fa-map-marker-alt" aria-hidden="true"></i></div>
                 <input type="search" name="Ville" placeholder="Marseille, France">
                 <h4>Rechercher</h4>
-
+                <div id="iconerechercher"><i class="fas fa-search SearchFormBtnIcon" aria-hidden="true"></i></div>
             </div>
 
         </section>
@@ -48,35 +48,34 @@
                 <div id="filtre">
                     <div id="titre">
                         <h2>Filtres</h2>
-
-                        <div id="billets">
-
-                            <i class="fas fa-money-bill-wave" aria-hidden="true"></i>
-                            <h3>Économique</h3>
-                        </div>
-
-                        <div id="enfant">
-                            <i class="fas fa-child" aria-hidden="true"></i>
-                            <h3>Familial</h3>
-                        </div>
-
-                        <div id="coeur">
-                            <i class="fas fa-heart" aria-hidden="true"></i>
-                            <h3>Romantique</h3>
-                        </div>
-
-                        <div id="chien">
-                            <i class="fas fa-dog" aria-hidden="true"></i>
-                            <h3>Animaux autorisés</h3>
-                        </div>
-
                     </div>
-                    <!--section info-->
-                    <div id="info">
-                        <i class="fas fa-info" aria-hidden="true"></i>
-                        <p>Plus de 500 logements disponibles dans cette ville</p>
+                    <div id="billets">
+                        <i class="fas fa-money-bill-wave" aria-hidden="true"></i>
+                        <h3>Économique</h3>
                     </div>
+
+                    <div id="enfant">
+                        <i class="fas fa-child" aria-hidden="true"></i>
+                        <h3>Familial</h3>
+                    </div>
+
+                    <div id="coeur">
+                        <i class="fas fa-heart" aria-hidden="true"></i>
+                        <h3>Romantique</h3>
+                    </div>
+
+                    <div id="chien">
+                        <i class="fas fa-dog" aria-hidden="true"></i>
+                        <h3>Animaux autorisés</h3>
+                    </div>
+
                 </div>
+                <!--partie info-->
+                <div id="info">
+                    <i class="fas fa-info" aria-hidden="true"></i>
+                    <p>Plus de 500 logements disponibles dans cette ville</p>
+                </div>
+            </div>
         </section>
         <!--grande section hebergements-->
         <div id="grandconteneur">
@@ -87,10 +86,12 @@
 
                 <a href="#">
 
-                    <div id="boite2">
+                    <div class="boite">
                         <img src="nouveau dossier/hebergements/4_small/img1.jpg
                                 " alt="blabla">
                         <h2>Auberge de la Cannebière</h2>
+                        <p>Nuit à partir de 25€</p>
+
                         <div class="etoiles">
                             <i class="fas fa-star" aria-hidden="true"></i>
                             <i class="fas fa-star" aria-hidden="true"></i>
@@ -98,12 +99,12 @@
                             <i class="fas fa-star" aria-hidden="true"></i>
                             <i class="fas fa-star" aria-hidden="true"></i>
                         </div>
-                        <p>Nuit à partir de 25€</p>
+
                     </div>
                 </a>
 
                 <a href="#">
-                    <div id="boite3">
+                    <div class="boite">
                         <img src="nouveau dossier/hebergements/4_small/img2.jpg
                             " alt="blabla">
                         <h2>Hôtel du port</h2>
@@ -119,7 +120,7 @@
                 </a>
 
                 <a href="#">
-                    <div id="boite4">
+                    <div class="boite">
                         <img src="nouveau dossier/hebergements/4_small/img3.jpg" alt="bla bla">
 
                         <h2>Hôtel les mouettes</h2>
@@ -134,7 +135,7 @@
                     </div>
                 </a>
                 <a href="#">
-                    <div id="boite5">
+                    <div class="boite">
                         <img src="nouveau dossier/hebergements/4_small/img4.jpg" alt="blabla">
                         <h2>Hôtel de la mer</h2>
                         <div class="etoiles">
@@ -148,11 +149,11 @@
                     </div>
                 </a>
                 <a href="#">
-                    <div id="boite6">
+                    <div class="boite">
                         <img src="nouveau dossier/hebergements/4_small/img5.jpg" alt="blabla">
 
                         <h2>Hôtel Le Panier</h2>
-                        <div id="etoiles">
+                        <div class="etoiles">
                             <i class="fas fa-star" aria-hidden="true"></i>
                             <i class="fas fa-star" aria-hidden="true"></i>
                             <i class="fas fa-star" aria-hidden="true"></i>
@@ -163,7 +164,7 @@
                     </div>
                 </a>
                 <a href="#">
-                    <div id="boite7">
+                    <div class="boite">
                         <img src="nouveau dossier/hebergements/4_small/img6.jpg" alt=" blabla">
                         <h2>Hôtel Chez Amina</h2>
                         <div class="etoiles">
@@ -194,7 +195,7 @@
                 </div>
 
                 <a href="#">
-                    <div id="boite10">
+                    <div class="boite">
                         <div id="img8">
                             <img src="nouveau dossier/hebergements/4_small/img7.jpg" alt=" blabla">
                         </div>
@@ -213,7 +214,7 @@
                     </div>
                 </a>
                 <a href="#">
-                    <div id="boite11">
+                    <div class="boite">
                         <div id="img9">
                             <img src="nouveau dossier/hebergements/4_small/img8.jpg" alt="image8">
                         </div>
@@ -231,7 +232,7 @@
                     </div>
                 </a>
                 <a href="#">
-                    <div id="boite12">
+                    <div class="boite">
                         <div id="img10">
                             <img src="nouveau dossier/hebergements/4_small/img9.jpg" alt="img9">
                         </div>
@@ -252,19 +253,17 @@
         </div>
         </section>
         <section id="lesactivites">
-            <div id="boite13">
-                <h1>Activités à Marseille</h1>
-            </div>
 
+            <h1>Activités à Marseille</h1>
             <a href="#">
-                <div id="boite14">
+                <div class="boite">
                     <figure> <img src="nouveau dossier/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
                             alt=""></figure>
                     <h3>Vieux Port</h3>
                 </div>
             </a>
             <a href="#">
-                <div id="boite15">
+                <div class="boite">
                     <figure> <img src="nouveau dossier/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="">
                     </figure>
                     <h3>Fort de Pomègues</h3>
@@ -272,22 +271,22 @@
                 </div>
             </a>
             <a href="#">
-                <div id="boite16">
+                <div class="boite">
                     <figure><img src="nouveau dossier/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="">
                     </figure>
                     <h3>Iles du Frioul</h3>
             </a>
     </div>
-    <div id="boite17">
+    <div class="boite">
         <figure><img src="nouveau dossier/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
                 alt="Parc national des Calanques"></figure>
         <h3>Parc national des Calanques</h3>
 
-        <div id="boite18">
+        <div class="boite">
             <figure><img src="nouveau dossier/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt=""></figure>
             <h3>Notre-Dame-de-la-Garde</h3>
 
-            <div id="boite19">
+            <div class="boite">
                 <figure><img src="nouveau dossier/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="">
                 </figure>
                 <h3>Parc Longchamp</h3>
