@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
 #page {
     max-width: 100%;
     min-width: 100%;
@@ -10,10 +12,17 @@
 body {
     font-weight: 300;
     width: 100%;
+    font-family: 'Raleway', sans-serif;
 }
 
 a:visited {
     color: blue;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
 }
 
 /*header*/
@@ -53,6 +62,10 @@ ul {
     list-style: none;
 }
 
+li {
+    color: black;
+}
+
 /*titres*/
 h1 {
     font-weight: 600;
@@ -61,6 +74,7 @@ h1 {
 }
 
 h2 {
+    display: block;
     font-weight: 700;
     font: size 0.9rem;
     color: #000000;
@@ -124,6 +138,7 @@ h4 {
     color: blue;
     border-top: 0.125rem solid;
 }
+
 #grandconteneur {
     display: inline-flex;
     justify-content: space-around;
@@ -137,25 +152,27 @@ h4 {
     align-items: center;
     align-content: space-around;
     max-width: 65%;
-background-color: rgb(230, 230, 217);
+    background-color: rgb(230, 230, 217);
+    border-radius: 15px;
 }
 
 #sectionlocation a {
-   
+
     border-radius: 1rem;
     box-shadow: aqua;
     margin: 1.5rem;
     text-decoration: none;
 }
-#sectionlocation a :hover
-{
-    opacity:0.8;
+
+#sectionlocation a :hover {
+    opacity: 0.8;
 }
+
 #lespluspopulaires
 
 /*grand conteneur*/
     {
-    max-width: 40%;
+    width: 30%;
     background-color: rgb(230, 230, 217);
     border-radius: 0.9rem;
     display: flex;
@@ -271,33 +288,49 @@ p {
 }
 
 #boite1
+
 /*TITRE HEBERGEMENTS A MARSEILLE*/
     {
     width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-   background-color: rgb(230, 230, 217);
+    background-color: rgb(230, 230, 217);
 }
+
+.boite2,
+.boite3,
+.boite4 {
+    display: inline-block;
+    padding: 0.35em;
+    height: 9.5vw;
+    width: 23vw;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 4px 2px 20px rgb(230, 230, 217);
+}
+
 .boite {
     width: 15rem;
-	border: 0.3rem #ffffff solid;
-	border-radius: 0.9rem;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+    border: 0.3rem #ffffff solid;
+    border-radius: 0.9rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     background-color: #ffffff;
 }
-.boite i 
-{
+
+.boite i {
     display: inline-flex;
-	flex-wrap: nowrap;
-	font-size: 0.75rem;
-	align-content: space-around;
-	color: #0065FC;
+    flex-wrap: nowrap;
+    font-size: 0.75rem;
+    align-content: space-around;
+    color: #0065FC;
 }
-.boite img 
-{
+
+.boite img {
     width: 100%;
     display: inline-flex;
     flex-wrap: nowrap;
@@ -305,25 +338,23 @@ p {
     align-content: space-around;
     color: #0065FC;
 }
-.legende
-{
-    margin:0.5rem 0rem 0rem 0.5rem;
+
+.legende {
+    margin: 0.5rem 0rem 0rem 0.5rem;
 }
-.legende p 
-{
+
+.legende p {
     margin-top: 0.3rem;
 }
 
-#boxafficher
-{
+#boxafficher {
     width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
 
-#boxafficher a 
-{
+#boxafficher a {
     text-decoration: none;
     background-color: transparent;
     border-radius: 0rem;
@@ -332,6 +363,7 @@ p {
 }
 
 #boite9
+
 /*titre les plus populaires*/
     {
     display: flex;
@@ -339,6 +371,10 @@ p {
     width: 80%;
     justify-content: space-between;
     margin: 1rem;
+}
+
+#boite9 i {
+    font-size: 1.1rem;
 }
 
 #partierecherche
@@ -505,114 +541,214 @@ p {
 }
 
 #lesactivites {
-    background-color: rgb(230, 230, 217);
+
     display: flex;
     flex-wrap: wrap;
-    max-width: 90rem;
+    max-width: 100%;
     justify-content: space-around;
 
 }
 
+#lesactivites h2 {
+    margin: 4vw 2.3 vw 2vw 3.6vw;
+    font-size: 1.7vmax;
 
-#lesactivites h1 {
+}
+
+.sectionactivites {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 3.3vw 3.5vw;
+    height: 31vw;
+    width: 100%;
+}
+
+#lesactivites h2 {
     display: inline-flex;
     margin: 3rem 0rem 2 rem;
     width: 100%;
 }
-#table1,#table2
-{
+
+.table1 {
+
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 2rem;
+    padding: 0;
 }
-#col1 a,#col3 
-{
-display: flex;
-flex-direction: column;
-text-decoration: none;
-width: 19rem;
-border-radius: 0.9rem 0.9rem 0.9rem 0.9rem;
-border-radius: 0.6rem 0.6rem 0.3rem 0rem;
+
+.boxactivitesa {
+    width: 21vw;
+
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    box-shadow: 3px 3px 20px rgb(230, 230, 217);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 
 }
-#col2 a,#col4 a
-{
+
+
+.col2 {
+    width: 25%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-between;
+    padding: 0;
+    background-color: white;
+    margin-bottom: 15px;
 }
-#fortdepomegues a,#notredame a,#parclongchamp a
-{
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-  
-    width: 19rem;
-    box-shadow: 0.6rem 0.06rem 0.3rem 0rem;
-    border-radius: 0.9rem 0.9 rem 0.9 rem 0.9 rem;
-}
-#ilesdufrioul a
-{
-    display:flex;
-    flex-direction: column;
-    width: 19rem;
-    border-radius: 0.9rem 0.9rem 0.9rem 0.9rem;
 
+.petiteboite {
+    width: 21vw;
+    height: 55%;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+    box-shadow: 3px 3px 20px rgb(230, 230, 217);
+    margin-bottom: 15px;
+    border-radius: 15px;
 }
-.images
-{
+
+.petiteboiteb {
+    width: 21vw;
+
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+    box-shadow: 3px 3px 20px rgb(230, 230, 217);
+    margin-bottom: 15px;
+    border-radius: 15px;
+    height: 40%;
+}
+
+.images {
     width: 100%;
     background-size: cover;
-    background-position:center ;
+    background-position: center;
     background-repeat: no-repeat;
 }
+
+.imagecolone {
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 85%;
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+}
+
+.imagespetitecolone {
+    width: 100%;
+    height: 55%;
+    object-fit: cover;
+    align-items: center;
+    padding-bottom: 10px;
+    border-top: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+}
+
+.imagespetitecolonea {
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+    align-items: center;
+    padding-bottom: 10px;
+    border-top: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+}
+
+.boxactivitesa {
+    width: 21vw;
+    padding: 0;
+    margin: 0;
+
+}
+
+* {
+    margin: 0;
+}
+
 .etoiles {
     margin-top: 0.3rem;
 }
-#footer
-{
+
+#footer {
     display: flex;
     justify-content: space-between;
     margin-top: 3rem;
-  
+
 }
-#footer li
-{
+
+#footer li {
     margin-bottom: 1rem;
 }
-.colone /*footer*/
-{
+
+.colone
+
+/*footer*/
+    {
     width: 100%;
     background-color: rgb(230, 230, 217);
     display: flex;
     align-items: flex-start;
-    
+
 }
 
+figcaption {
+    display: block;
+    font-size: 1.2vmax;
+    margin-left: 1.4em;
+    margin-top: 0.4em;
+    background-color: white;
+}
 
 
 figure {
-    width: 100%;
+
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    background-color: white;
+    box-shadow: 2px 2 px 20px rgb(230 230 230);
 }
 
 figure img {
-    max-width: 50%;
-    max-height: 60%;
+    max-width: 100%;
+    max-height: 80%;
 }
 
-#img9,#img7,#img8,#img10,#img11
- {
-    width: 100%;
-   
+
+.imagepopulaire {
+    float: left;
+    width: 40%;
+
+    border: 0.3rem;
+    border-bottom-left-radius: 15px;
+    object-fit: cover;
+    height: 100%;
+    margin-right: 0.8vw;
 }
 
-#text1,
-#text2,
-#text3 {
+.textedescriptif {
     display: flex;
     flex-direction: column;
-    width: 9rem;
-    padding-top: 0.4rem;
+    margin-left: 0.5rem;
+
+}
+
+.textedescriptif h4 {
+    font-size: 1.2vw;
 }
 
 img {
@@ -621,4 +757,63 @@ img {
     border-radius: 1.8rem;
     border-left: 0.3rem;
 
+}
+
+footer {
+    margin: 0;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-decoration: none;
+    min-width: 100%;
+}
+
+footer ul li {
+    color: black;
+    cursor: pointer;
+    font-size: 1vw;
+}
+
+/* Partie Responsive*/
+
+h1 {
+    font-size: 1.6rem;
+}
+
+p,
+h2,
+h3,
+h4 {
+    font-size: 1rem;
+}
+
+header {
+    height: 9.375rem;
+}
+
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 6.25rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#boitefiltre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#filtre {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
