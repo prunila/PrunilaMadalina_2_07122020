@@ -19,7 +19,7 @@ body {
 }
 
 a:visited {
-    color: blue;
+    color:#0065FC;
 }
 
 a {
@@ -78,7 +78,7 @@ ul {
 li {
     display: list-item;
     text-align-last: right;
-    color: rgb(44, 24, 226);
+    color:#0065FC ;
 }
 
 /*titres*/
@@ -135,7 +135,7 @@ h4 {
 .hebergements,
 .barre {
     display: flex;
-    border-top: 0.1 solid rgb(30, 27, 219);
+    border-top: 0.1 solid#0065FC ;
 }
 
 .hebergements a,
@@ -150,9 +150,9 @@ h4 {
 
 .hebergements a:hover,
 .barre a:hover {
-    color: #451cb8;
+    color:#0065FC ;
     font-weight: 500;
-    border-top: 0.125rem solid rgb(49, 79, 212);
+    border-top: 0.125rem solid #0065FC;
 }
 
 /*barre survol*/
@@ -170,15 +170,15 @@ h4 {
     justify-content: center;
     align-items: center;
     align-content: space-around;
-    max-width: 65%;
-    background-color: rgb(230, 230, 217);
+    width: 65%;
+    background-color:#F2F2F2;
     border-radius: 15px;
 }
 
 #sectionlocation a {
 
     border-radius: 1rem;
-    box-shadow: aqua;
+    box-shadow: #0065FC;
     margin: 1.5rem;
     text-decoration: none;
 }
@@ -192,7 +192,7 @@ h4 {
 /*grand conteneur*/
     {
     width: 30%;
-    background-color: rgb(230, 230, 217);
+    background-color:#F2F2F2;
     border-radius: 0.9rem;
     display: flex;
     flex-direction: column;
@@ -314,7 +314,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    background-color: rgb(230, 230, 217);
+    background-color:#F2F2F;
 }
 
 .boite2,
@@ -498,7 +498,7 @@ p {
     {
     display: flex;
     align-items: center;
-    color: #0e66eb;
+    color: #0065FC;
     background-color: #eff4fc;
     width: 2.5rem;
     height: 2.5rem;
@@ -634,7 +634,7 @@ p {
     padding: 0;
     margin: 0;
     justify-content: space-around;
-    box-shadow: 3px 3px 20px rgb(230, 230, 217);
+    box-shadow: 3px 3px 20px #F2F2F2 ;
     margin-bottom: 15px;
     border-radius: 15px;
     border-bottom-right-radius: 18px;
@@ -652,7 +652,7 @@ p {
     padding: 0;
     margin: 0;
     justify-content: space-around;
-    box-shadow: 3px 3px 20px rgb(161, 161, 148);
+    box-shadow: 3px 3px 20px #F2F2F2;
     margin-bottom: 15px;
     border-radius: 15px;
     height: 40%;
@@ -738,13 +738,13 @@ p {
 
 .etoiles {
     margin-top: 15px;
-    color: rgb(87, 87, 248);
+    color:#0065FC ;
 
 
 }
 
 .etoilegrise {
-    color: rgb(100, 100, 94) !important;
+    color:#F2F2F2 !important;
 }
 
 #footer {
@@ -763,7 +763,7 @@ p {
 /*footer*/
     {
     width: 100%;
-    background-color: rgb(230, 230, 217);
+    background-color: #F2F2F2;
     display: flex;
     align-items: flex-start;
 
@@ -787,7 +787,7 @@ figure {
     margin-inline-start: 40px;
     margin-inline-end: 40px;
     background-color: white;
-    box-shadow: 2px 2 px 20px rgb(230 230 230);
+    box-shadow: 2px 2 px 20px#F2F2F2 ;
 }
 
 figure img {
@@ -835,9 +835,11 @@ footer {
     padding-bottom: 30px;
     text-decoration: none;
     min-width: 100%;
+    background-color: #F2F2F2;
 }
 
 footer ul li {
+   
     color: black;
     cursor: pointer;
     font-size: 1vw;
@@ -848,23 +850,20 @@ footer ul li {
     h1 {
         font-size: 1.6rem;
     }
-
+h2
+{
+font-size: 1.3rem;
+}
     p,
-    h2,
+
     h3,
     h4 {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
-
-
-
 
     #logo {
         display: flex;
         flex-wrap: wrap;
-
-
-
     }
 
     #inscription {
@@ -874,10 +873,17 @@ footer ul li {
         order: 1;
     }
 
+    #inscription a:hover {
+        display: flex;
+        flex-wrap: wrap;
+        border-top: none;
+    }
+
     nav {
         display: flex;
         flex-flow: row wrap;
         width: 100%;
+        overflow:scroll;
     }
 
     nav ul {
@@ -885,36 +891,24 @@ footer ul li {
         align-items: center;
         width: 100%;
         justify-content: space-around;
-
-
-
-    }
-
-
-    #inscription a:hover {
-        display: flex;
-        flex-wrap: wrap;
-        border-top: none;
     }
 
     #boitefiltre {
         display: flex;
         flex-wrap: wrap;
-
-
-
     }
 
     #filtre {
         display: flex;
         margin-bottom: 10px;
-
-
     }
 
     #sectionlocation {
         flex-wrap: wrap;
         flex-direction: column;
+        background-color: white;
+      width: 100%;
+
     }
 
     #grandconteneur {
@@ -923,26 +917,52 @@ footer ul li {
         justify-content: center;
         align-items: center;
         align-content: space-between;
-        order: 2;
         width: 100%;
+        flex-direction: column-reverse;
     }
-
-
 
     #lespluspopulaires {
         display: flex;
         flex-flow: row wrap;
-        width: 65%;
         flex-direction: column;
         order: 1;
-
+        width: 100%;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        margin: 0;
     }
 
-    .boite2,
-    .boite3,
-    .boite4 {
-        width: 80%;
+    .boite {
+        width: 90%;
+        box-shadow: 3px 3px 20px #F2F2F2;
+     height: 210px;
+        margin: 10px 0 23px 0;
+        background-color: white;
+    }
+
+    .boite img {
+        height: 55%;
         object-fit: cover;
+    }
+#boite1 
+{
+    background-color: white;
+}
+    #boite1 h1 {
+        display: flex;
+        background-color: white;
+        justify-content: center;
+        margin: 35px 10px 10px 25px;
+    }
+
+    .boite2 {
+        width: 90%;
+        object-fit: cover;
+        margin-left: 10px;
+        height: 180px;
+     
     }
 
     .imagepopulaire {
@@ -953,6 +973,10 @@ footer ul li {
     img .imagepopulaire {
         object-fit: cover;
         height: 100%;
+    }
+    #boxafficher h2
+    {
+        font-size: 1.3rem;
     }
 
     #lesactivites {
@@ -997,24 +1021,33 @@ footer ul li {
         height: 15rem;
         margin: 1.5rem 0rem;
     }
-    .petiteboite, .petiteboiteb, .boxactivitesa
-    {
-   
+
+    .petiteboite,
+    .petiteboiteb,
+    .boxactivitesa {
+
 
         width: 88%;
         height: 190px;
         margin-bottom: 27px;
     }
-    .imagespetitecolone, .imagespetitecolonea, .imagecolone
-    {
+
+    .imagespetitecolone,
+    .imagespetitecolonea,
+    .imagecolone {
         height: 135px;
     }
-   figcaption
- {
-     font-size: 5vw;
- 
-   font-weight: bold;
- }
+
+    figcaption {
+        font-size: 5vw;
+        font-weight: bold;
+    }
+
+
+    .imagepopulaire img {
+        height: 100%;
+        object-fit: cover;
+    }
 
     #footer {
         order: 4;
@@ -1034,21 +1067,4 @@ footer ul li {
     li {
         display: flex;
         flex-flow: wrap;
-    }
-
-    #granconteneur {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    #lespluspopulaires {
-        flex-direction: column;
-        order: 1;
-
-
-    }
-
-    #sectionlocation {
-        flex-direction: column;
-        order: 2;
     }
