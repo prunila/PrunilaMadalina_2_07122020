@@ -131,7 +131,7 @@ h4 {
 .hebergements,
 .barre {
     display: flex;
-    border-top: 0.1 solid#0065FC;
+    
 }
 
 .hebergements a,
@@ -411,9 +411,9 @@ p {
     flex-direction: column;
     line-height: 150%;
     background-color: #ffffff;
-    margin-block-start: 20px;
-    padding-block-start: 20px;
-    padding-block-end: 20px;
+    margin-block-start: 2em;
+   
+    padding-block-end: 2em;
 }
 #boutonrecherche {
     display: flex;
@@ -458,8 +458,8 @@ p {
     justify-content: space-around;
     max-width: 50rem;
     background-color: white;
-    margin-block: 20px;
-    padding-block: 20px;
+    margin-top: 2em;
+
 }
 
 #filtre {
@@ -536,7 +536,7 @@ p {
     width: 100%;
     margin-top: 15px;
     padding-top: 15px;
-    padding-bottom: 1px;
+    padding-bottom: 2em;
 }
 
 #info i {
@@ -567,10 +567,9 @@ p {
 }
 
 #lesactivites h2 {
-    margin: 4vw 2.3 vw 2vw 3.6vw;
+    margin-top: 2em;
     font-size: 1.7vmax;
-    margin-block: 20px;
-    padding-block: 20px;
+   padding-bottom: 2em;
 }
 
 .sectionactivites {
@@ -762,12 +761,8 @@ figcaption {
 figure {
 
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 40px;
-    margin-inline-end: 40px;
     background-color: white;
-    box-shadow: 2px 2 px 20px#F2F2F2;
+    box-shadow: 2px 2px 20px #F2F2F2;
 }
 
 figure img {
