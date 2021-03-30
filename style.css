@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+*box-sizing-border-box
 
-#page {
+div#page {
 
     max-width: 100%;
     min-width: 100%;
-    margin: 0;
+    margin: 30px;
     display: flex;
     flex-direction: column;
 padding: 0.8rem;
@@ -40,29 +41,32 @@ header {
     height: 100%;
     display: flex;
     justify-content: center;
-    margin: 1vw 1vw 1vw 1vw;
+  
     width: 100%;
 }
 nav {
 
     display: flex;
+   flex-grow: 0.8;
     justify-content: space-between;
     background-color: #ffffff;
 }
 nav ul li {
-
-    border-top: solid 2.5px transparent;
-    padding: 38px 30px 0 30px;
+  border-top: solid 2.5px transparent;
+    padding: 0 30px;
 }
 nav ul {
-    display: inline-flex;
-
+    display:flex;
+    flex-grow: 1;
+justify-content: flex-end;
     margin-right: 2vw;
     text-decoration: none;
     background-color: #ffffff;
 }
 ul {
     list-style: none;
+  
+    width: 100%;
 }
 li {
     display: list-item;
@@ -71,6 +75,7 @@ li {
 }
 /*titres*/
 h1 {
+    display: flex;
     font-weight: 600;
     font-size: 1.1rem;
     color: #000000;
@@ -135,7 +140,7 @@ h4 {
 /*barre survol*/
 #grandconteneur {
     display: inline-flex;
-    justify-content: space-around;
+    justify-content: space-between;
     max-height: 50%;
 }
 #sectionlocation {
@@ -196,6 +201,12 @@ h4 {
     max-width: 65%;
     background-color: #F2F2F2;
     border-radius: 0.9rem;
+}
+#sectionlocation h1
+{width: 100%;
+    display: flex;
+  justify-content: left;
+    margin: 35px;
 }
 #Sejour a {
     background-color: #fff;
@@ -321,6 +332,12 @@ p {
     border-radius: 0rem;
     box-shadow: none;
     margin: 0rem 0rem 0.9rem 0rem;
+}
+#boxafficher h2{
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    margin: 35px;
 }
 #boite9
 /*titre les plus populaires*/
@@ -474,7 +491,7 @@ p {
     width: 1.3rem;
     height: 1.3rem;
     border-radius: 50%;
-    margin: 0.3rem;
+
 }
 .box .imgbox {
     width: 150px;
@@ -496,13 +513,13 @@ p {
 .sectionactivites {
     display: flex;
     justify-content: space-around;
-    margin: 0 3.3vw 3.5vw;
+  
     height: 31vw;
     width: 100%;
 }
 #lesactivites h2 {
     display: flex;
-    margin: 3rem 0rem 2rem;
+  
     width: 100%;
 }
 .table1 {
@@ -642,15 +659,14 @@ p {
 #footer li {
     margin-bottom: 1rem;
 }
-
-.colone
-
 /*footer*/
+.colone
     {
-    width: 100%;
+    width: 35%;
     background-color: #F2F2F2;
     display: flex;
-    align-items: flex-start;
+  justify-content: right;
+  align-items: flex-start;
 
 }
 
