@@ -477,8 +477,8 @@ p {
     flex-flow: row nowrap;
     align-items: center;
     width: 100%;
-    margin-block: 15px;
-    padding-block: 15px;
+    margin-top: 15px;
+    padding-top: 15px;
 }
 #info i {
     display: flex;
