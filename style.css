@@ -7,8 +7,7 @@
     margin: 0;
     display: flex;
     flex-direction: column;
-
-    padding: 0.8rem;
+padding: 0.8rem;
 }
 
 body {
@@ -43,92 +42,72 @@ header {
     justify-content: center;
     margin: 1vw 1vw 1vw 1vw;
     width: 100%;
-
 }
-
 nav {
 
     display: flex;
     justify-content: space-between;
     background-color: #ffffff;
 }
-
 nav ul li {
 
     border-top: solid 2.5px transparent;
     padding: 38px 30px 0 30px;
-
-
 }
-
-
 nav ul {
     display: inline-flex;
 
     margin-right: 2vw;
     text-decoration: none;
     background-color: #ffffff;
-
 }
-
 ul {
     list-style: none;
 }
-
 li {
     display: list-item;
     text-align-last: right;
     color:#0065FC ;
 }
-
 /*titres*/
 h1 {
     font-weight: 600;
     font-size: 1.1rem;
     color: #000000;
 }
-
 h2 {
     display: block;
     font-weight: 700;
     font: size 0.9rem;
     color: #000000;
 }
-
 h3 {
     font-weight: 700;
     font-size: 0.7rem;
     color: #000000;
 }
-
 h4 {
     font-weight: 400;
     color: #000000;
-
 }
-
 h1 {
     font-weight: 700;
     font-size: 1.1rem;
     color: #000000;
 }
-
 h2 {
     font-weight: 700;
     font: size 0.9rem;
     color: #000000;
 }
-
 h3 {
     font-weight: 700;
     font-size: 0.7rem;
     color: #000000;
 }
-
 h4 {
     font-weight: 400;
     color: #000000;
-
 }
 
 /*menu navigation*/
@@ -147,23 +126,18 @@ h4 {
     text-decoration: none;
     padding-top: 1.3rem;
 }
-
 .hebergements a:hover,
 .barre a:hover {
     color:#0065FC ;
     font-weight: 500;
     border-top: 0.125rem solid #0065FC;
 }
-
 /*barre survol*/
-
-
 #grandconteneur {
     display: inline-flex;
     justify-content: space-around;
     max-height: 50%;
 }
-
 #sectionlocation {
     display: flex;
     flex-wrap: wrap;
@@ -174,21 +148,16 @@ h4 {
     background-color:#F2F2F2;
     border-radius: 15px;
 }
-
 #sectionlocation a {
-
     border-radius: 1rem;
     box-shadow: #0065FC;
     margin: 1.5rem;
     text-decoration: none;
 }
-
 #sectionlocation a :hover {
     opacity: 0.8;
 }
-
 #lespluspopulaires
-
 /*grand conteneur*/
     {
     width: 30%;
@@ -200,7 +169,6 @@ h4 {
     align-items: center;
     align-content: center;
 }
-
 #lesplupopulaires a {
     text-decoration: none;
     background-color: #fff;
@@ -208,11 +176,9 @@ h4 {
     box-shadow: 0.6rem 0.06rem 0.3rem 0rem #e0e0e0;
     margin: 1rem 2rem;
 }
-
 #lespluspopulaires a :hover {
     opacity: 0.8;
 }
-
 .activites {
     font-weight: 400;
     font-size: 0.9rem;
@@ -221,7 +187,6 @@ h4 {
     padding-top: 1.3rem;
     background-color: darkslategrey;
 }
-
 #Sejour {
     display: flex;
     flex-flow: row wrap;
@@ -232,7 +197,6 @@ h4 {
     background-color: #F2F2F2;
     border-radius: 0.9rem;
 }
-
 #Sejour a {
     background-color: #fff;
     border-radius: 1rem;
@@ -240,24 +204,19 @@ h4 {
     margin: 1.5rem;
     border-top: 0.125rem solid black;
 }
-
 #Sejour a:hover {
     border-top: 0.125rem solid black;
 }
-
 p {
     color: black;
 }
-
 #inscription
-
 /*le bouton ??????????*/
     {
     display: flex;
     justify-content: flex-end;
     width: 0.3rem;
 }
-
 #inscription a {
     font-size: 0.9rem;
     color: #0065FC;
@@ -265,23 +224,18 @@ p {
     text-decoration: none;
     padding-top: 1.563rem;
 }
-
 #inscription a:hover {
     color: #000000;
     font-weight: 500;
     border-top: 0.125rem solid black;
 }
-
 #icone i
-
 /*icone rechercher*/
     {
     display: flex;
     justify-content: center;
 }
-
 #marker i
-
 /*gps icone*/
     {
     font-size: 1rem;
@@ -293,7 +247,6 @@ p {
     align-items: center;
     justify-content: space-around;
 }
-
 #search input {
     display: flex;
     background-color: #ffffff;
@@ -305,9 +258,7 @@ p {
     font-size: 0.75rem;
     font-weight: 800;
 }
-
 #boite1
-
 /*TITRE HEBERGEMENTS A MARSEILLE*/
     {
     width: 90%;
@@ -316,13 +267,11 @@ p {
     justify-content: flex-end;
     background-color:#F2F2F2;
 }
-
 .boite2,
 .boite3,
 .boite4 {
     display: inline-block;
     padding: 0.35em;
-
     width: 23vw;
     margin-bottom: 20px;
     margin-top: 10px;
@@ -330,7 +279,6 @@ p {
     border-radius: 20px;
     box-shadow: 4px 2px 20px rgb(230, 230, 217);
 }
-
 .boite {
     width: 15rem;
     border: 0.3rem #ffffff solid;
@@ -340,7 +288,6 @@ p {
     flex-wrap: wrap;
     background-color: #ffffff;
 }
-
 .boite i {
     display: inline-flex;
     flex-wrap: nowrap;
@@ -348,7 +295,6 @@ p {
     align-content: space-around;
     color: #0065FC;
 }
-
 .boite img {
     width: 100%;
     display: inline-flex;
@@ -357,22 +303,18 @@ p {
     align-content: space-around;
     color: #0065FC;
 }
-
 .legende {
     margin: 0.5rem 0rem 0rem 0.5rem;
 }
-
 .legende p {
     margin-top: 0.3rem;
 }
-
 #boxafficher {
     width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
-
 #boxafficher a {
     text-decoration: none;
     background-color: transparent;
@@ -380,9 +322,7 @@ p {
     box-shadow: none;
     margin: 0rem 0rem 0.9rem 0rem;
 }
-
 #boite9
-
 /*titre les plus populaires*/
     {
     display: flex;
@@ -391,22 +331,17 @@ p {
     justify-content: space-between;
     margin: 1rem;
 }
-
 #boite9 i {
     font-size: 1.1rem;
 }
-
 #partierecherche
-
 /* conteneur global*/
     {
     display: flex;
     flex-direction: column;
     margin-top: 1.25rem;
 }
-
 #deuxtextes
-
 /*titre*/
     {
     display: flex;
@@ -416,7 +351,6 @@ p {
     margin-block: 20px;
     padding-block: 20px;
 }
-
 #boutonrecherche {
     display: flex;
     color: white;
@@ -427,7 +361,6 @@ p {
     justify-items: flex-start;
     cursor: pointer;
 }
-
 #boutonrecherche input {
     display: flex;
     background-color: #ffffff;
@@ -439,7 +372,6 @@ p {
     font-size: 0.75rem;
     font-weight: 800;
 }
-
 #boutonrecherche h4 {
     display: flex;
     color: #ffffff;
@@ -451,13 +383,10 @@ p {
     justify-content: first baseline;
     cursor: pointer;
 }
-
 #iconerechercher {
     display: none;
 }
-
 #boitefiltre
-
 /*boite globale filtre*/
     {
     display: flex;
@@ -468,7 +397,6 @@ p {
     margin-block: 20px;
     padding-block: 20px;
 }
-
 #filtre {
     display: flex;
     justify-content: space-between;
@@ -478,11 +406,9 @@ p {
     width: 100%;
     color: #d9dee4;
 }
-
 #titre {
     display: flex;
 }
-
 #billets,
 #enfant,
 #coeur,
@@ -491,9 +417,7 @@ p {
     align-items: center;
     color: #0065FC;
 }
-
 #filtre i
-
 /*icones*/
     {
     display: flex;
@@ -507,16 +431,13 @@ p {
     position: absolute;
     z-index: 2;
 }
-
 #filtre i:hover {
     color: #0065FC;
     background-color: #ffffff;
     border: 0.06rem #4288f0 dashed;
     cursor: pointer;
 }
-
 #filtre h3
-
 /*NOM FILTRES*/
     {
     display: flex;
@@ -530,12 +451,10 @@ p {
     position: relative;
     z-index: 1;
 }
-
 #filtre h3:hover {
     border: 0.06rem red;
     border-radius: 9.375rem 9.375rem 9.375rem 9.375rem;
 }
-
 #info {
     display: flex;
     flex-flow: row nowrap;
@@ -544,7 +463,6 @@ p {
     margin-block: 15px;
     padding-block: 15px;
 }
-
 #info i {
     display: flex;
     justify-content: space-around;
@@ -558,29 +476,23 @@ p {
     border-radius: 50%;
     margin: 0.3rem;
 }
-
 .box .imgbox {
     width: 150px;
     flex: 0 0 150px;
     max-width: 100%;
 }
-
 #lesactivites {
-
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
     justify-content: space-around;
-
 }
-
 #lesactivites h2 {
     margin: 4vw 2.3 vw 2vw 3.6vw;
     font-size: 1.7vmax;
     margin-block: 20px;
     padding-block: 20px;
 }
-
 .sectionactivites {
     display: flex;
     justify-content: space-around;
@@ -588,23 +500,17 @@ p {
     height: 31vw;
     width: 100%;
 }
-
 #lesactivites h2 {
     display: flex;
     margin: 3rem 0rem 2rem;
     width: 100%;
-
 }
-
 .table1 {
-
     display: flex;
     padding: 0;
 }
-
 .boxactivitesa {
     width: 21vw;
-
     padding: 0;
     margin: 0;
     background-color: white;
@@ -613,10 +519,7 @@ p {
     border-bottom-right-radius: 15px;
     border-top-right-radius: 18px;
     border-top-left-radius: 18px;
-
 }
-
-
 .col2 {
     width: 25%;
     display: flex;
@@ -625,9 +528,7 @@ p {
     justify-content: space-between;
     padding: 0;
     background-color: white;
-
 }
-
 .petiteboite {
     width: 21vw;
     height: 55%;
@@ -640,15 +541,12 @@ p {
     border-bottom-right-radius: 18px;
     transition: 1s;
 }
-
 .petiteboite:hover {
     transform: scale(1.2);
     z-index: 2;
 }
-
 .petiteboiteb {
     width: 21vw;
-
     padding: 0;
     margin: 0;
     justify-content: space-around;
@@ -657,22 +555,17 @@ p {
     border-radius: 15px;
     height: 40%;
     transition: 1s;
-
 }
-
 .petiteboiteb:hover {
     transform: scale(1.2);
     z-index: 2;
 }
-
 .boite2 img,
 .boite3 img,
 .boite4 img {
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
-
 }
-
 .images {
     width: 100%;
     background-size: cover;
@@ -680,7 +573,6 @@ p {
     background-repeat: no-repeat;
     object-fit: cover;
 }
-
 .imagecolone {
     object-fit: cover;
     border-top-left-radius: 15px;
@@ -691,7 +583,6 @@ p {
     border-bottom-left-radius: 1px;
     border-bottom-right-radius: 1px;
 }
-
 .imagespetitecolone {
     width: 100%;
     height: 55%;
@@ -704,7 +595,6 @@ p {
     border-bottom-left-radius: 1px;
     border-bottom-right-radius: 1px;
 }
-
 .imagespetitecolonea {
     width: 100%;
     height: 85%;
@@ -716,22 +606,17 @@ p {
     border-top-right-radius: 15px;
     border-bottom-left-radius: 1px;
     border-bottom-right-radius: 1px;
-
 }
-
-
 .boxactivitesa {
     width: 21vw;
     padding: 0;
     margin: 0;
     transition: 1s;
 }
-
 .boxactivitesa:hover {
     transform: scale(1.2);
     z-index: 2;
 }
-
 * {
     margin: 0;
 }
