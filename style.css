@@ -89,7 +89,7 @@ h1 {
 h2 {
     display: block;
     font-weight: 700;
-    font: size 0.9rem;
+    font-size: 0.9rem;
     color: #000000;
 }
 
@@ -112,7 +112,7 @@ h1 {
 
 h2 {
     font-weight: 700;
-    font: size 0.9rem;
+    font-size: 0.9rem;
     color: #000000;
 }
 
@@ -411,9 +411,8 @@ p {
     flex-direction: column;
     line-height: 150%;
     background-color: #ffffff;
-    margin-block-start: 2em;
-   
-    padding-block-end: 2em;
+    margin-top: 2em;
+   padding-bottom: 2em;
 }
 #boutonrecherche {
     display: flex;
