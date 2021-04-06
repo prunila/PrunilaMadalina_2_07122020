@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
-*box-sizing-border-box 
-div#page {
+* {
+    box-sizing: border-box;
+}
 
+div#page {
     max-width: 100%;
     min-width: 100%;
     margin: 30px;
@@ -132,7 +134,7 @@ h4 {
 .hebergements,
 .barre {
     display: flex;
-    
+
 }
 
 .hebergements a,
@@ -380,41 +382,46 @@ p {
     box-shadow: none;
     margin: 0rem 0rem 0.9rem 0rem;
 }
+
 #boxafficher h2 {
     display: flex;
     width: 100%;
     justify-content: left;
     margin: 35px;
 }
+
 /*titre les plus populaires*/
-#boite9
-    {
+#boite9 {
     display: flex;
     flex-direction: row;
     width: 80%;
     justify-content: space-between;
     margin: 1rem;
 }
+
 #boite9 i {
     font-size: 1.1rem;
 }
+
 #partierecherche
+
 /* conteneur global*/
     {
     display: flex;
     flex-direction: column;
     margin-top: 1.25rem;
 }
+
 /*titre*/
-#deuxtextes
-    {
+#deuxtextes {
     display: flex;
     flex-direction: column;
     line-height: 150%;
     background-color: #ffffff;
     margin-top: 2em;
-   padding-bottom: 2em;
+    padding-bottom: 2em;
 }
+
 #boutonrecherche {
     display: flex;
     color: white;
@@ -424,6 +431,7 @@ p {
     justify-items: flex-start;
     cursor: pointer;
 }
+
 #boutonrecherche input {
     display: flex;
     background-color: #ffffff;
@@ -435,6 +443,7 @@ p {
     font-size: 0.75rem;
     font-weight: 800;
 }
+
 #boutonrecherche h4 {
     display: flex;
     color: #ffffff;
@@ -450,9 +459,9 @@ p {
 #iconerechercher {
     display: none;
 }
+
 /*boite globale filtre*/
-#boitefiltre
-    {
+#boitefiltre {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -569,7 +578,7 @@ p {
 #lesactivites h2 {
     margin-top: 2em;
     font-size: 1.7vmax;
-   padding-bottom: 2em;
+    padding-bottom: 2em;
 }
 
 .sectionactivites {
@@ -724,7 +733,7 @@ p {
 }
 
 .etoilegrise {
-    color: #F2F2F2 !important;
+    color: #c7c2c2 !important;
 }
 
 #footer {
@@ -774,11 +783,8 @@ figure img {
 .imagepopulaire {
     float: left;
     width: 40%;
-
-    border: 0.3rem;
     border-bottom-left-radius: 15px;
     object-fit: cover;
-    height: 100%;
     margin-right: 0.8vw;
 }
 
@@ -836,39 +842,69 @@ footer ul li {
     h4 {
         font-size: 1.2rem;
     }
-
+header
+{
+    flex-flow: wrap;
+}
     #logo {
+        width: 49%;
         display: flex;
         flex-wrap: wrap;
+        order: 1;
     }
 
     #inscription {
         display: flex;
         flex-wrap: wrap;
         width: 50%;
-        order: 1;
+        justify-content: center;
+  
+        order: 2;
     }
+
 
     #inscription a:hover {
         display: flex;
         flex-wrap: wrap;
         border-top: none;
+width: 50%;
+
     }
+#inscription a
+{
+    font-size: 1.5rem;
+}
 
     nav {
         display: flex;
         flex-flow: row wrap;
-        width: 100%;
-        overflow: scroll;
+        width: 99%;
+        order: 3;
+        justify-content: center;
+    
     }
 
     nav ul {
         display: flex;
-        align-items: center;
+        align-items:center;
         width: 100%;
         justify-content: space-around;
     }
+.barre, .hebergements
+{display: flex;
+    justify-content: center;
+    
+    border-bottom: 0.20rem solid;
+    width: 50%;
+    font-size: 1rem;
 
+}
+.barre a, .hebergements a 
+{
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+}
     #boitefiltre {
         display: flex;
         flex-wrap: wrap;
@@ -913,13 +949,13 @@ footer ul li {
     .boite {
         width: 90%;
         box-shadow: 3px 3px 20px #F2F2F2;
-        height: 210px;
+        height: 300px;
         margin: 10px 0 23px 0;
         background-color: white;
     }
 
     .boite img {
-        height: 55%;
+        height: 65%;
         object-fit: cover;
     }
 
@@ -944,13 +980,10 @@ footer ul li {
 
     .imagepopulaire {
         object-fit: cover;
-
-    }
-
-    img .imagepopulaire {
-        object-fit: cover;
         height: 100%;
     }
+
+
 
     #boxafficher h2 {
         font-size: 1.3rem;
@@ -1033,15 +1066,17 @@ footer ul li {
         width: 100%;
         height: 15%;
     }
-
+.colone
+{
+    width: 100%;
+}
     ul {
         display: flex;
-
         flex-direction: column;
 
     }
 
     li {
         display: flex;
-        flex-flow: wrap;
+        flex-flow:row wrap;
     }
