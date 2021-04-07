@@ -7,7 +7,7 @@
 div#page {
     max-width: 100%;
     min-width: 100%;
-    margin: 30px;
+  
     display: flex;
     flex-direction: column;
     padding: 0.8rem;
@@ -43,7 +43,6 @@ header {
     height: 100%;
     display: flex;
     justify-content: center;
-
     width: 100%;
 }
 
@@ -64,15 +63,14 @@ nav ul {
     display: flex;
     flex-grow: 1;
     justify-content: flex-end;
-    margin-right: 2vw;
+ 
     text-decoration: none;
     background-color: #ffffff;
 }
 
 ul {
     list-style: none;
-
-    width: 100%;
+  width: 100%;
 }
 
 li {
@@ -224,7 +222,7 @@ h4 {
     justify-content: center;
     align-items: center;
     align-content: space-around;
-    max-width: 65%;
+max-width: 60%;
     background-color: #F2F2F2;
     border-radius: 0.9rem;
 }
@@ -829,7 +827,7 @@ footer ul li {
 /* Partie Responsive*/
 @media screen and (max-width: 1024px) {
     h1 {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
 
     h2 {
@@ -840,12 +838,13 @@ footer ul li {
 
     h3,
     h4 {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
-header
-{
-    flex-flow: wrap;
-}
+
+    header {
+        flex-flow: wrap;
+    }
+
     #logo {
         width: 49%;
         display: flex;
@@ -857,9 +856,8 @@ header
         display: flex;
         flex-wrap: wrap;
         width: 50%;
-        justify-content: center;
-  
-        order: 2;
+       
+ order: 2;
     }
 
 
@@ -867,60 +865,106 @@ header
         display: flex;
         flex-wrap: wrap;
         border-top: none;
-width: 50%;
+        width: 50%;
 
     }
-#inscription a
-{
-    font-size: 1.5rem;
-}
+
+    #inscription a {
+        font-size: 1rem;
+    }
 
     nav {
         display: flex;
         flex-flow: row wrap;
-        width: 99%;
+        width: 100%;
         order: 3;
         justify-content: center;
-    
+
     }
 
     nav ul {
         display: flex;
-        align-items:center;
+        flex-direction: unset;
+        align-items: center;
         width: 100%;
         justify-content: space-around;
     }
-.barre, .hebergements
-{display: flex;
-    justify-content: center;
-    
-    border-bottom: 0.20rem solid;
-    width: 50%;
-    font-size: 1rem;
 
-}
-.barre a, .hebergements a 
-{
-    display: flex;
+    .barre,
+    .hebergements {
+        display: flex;
     justify-content: center;
-    font-size: 1.4rem;
+        border-bottom: 0.20rem solid;
+        width: 40%;
+        font-size: 0.75rem;
+
+    }
+
+    .barre a,
+    .hebergements a {
+        display: flex;
+        
+        font-size: 1rem;
+    }
+    .barre a:hover, .hebergements a:hover
+    {
+        border-top: none;
+    }
+    #deuxtextes h1
+    {
+      margin-bottom: 0.5rem;
+        
+        
+    }
+#boutonrecherche 
+{
+justify-content: center;
 }
     #boitefiltre {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+    justify-content: space-around;
+        }
+    #titre
+    {
+        display: flex;
+        width: 100%;
+        height: 2.5rem;
     }
+#info
+{
+    display: flex;
+    justify-content: space-around;
 
+}
+#info p 
+{
+    font-size: 5vw;
+}
+#info i 
+{
+    width: 2.5rem;
+    height: 2rem;
+}
     #filtre {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        margin-bottom: 10px;
+      align-items: flex-start;
+      
     }
-
+#billets, #enfant, #coeur, #chien
+{
+    padding-bottom: 0.9rem;
+}
+#Sejour
+{
+    background-color: white;
+    max-width: 100%;
+    
+}
     #sectionlocation {
         flex-wrap: wrap;
         flex-direction: column;
+      
         background-color: white;
         width: 100%;
 
@@ -961,16 +1005,17 @@ width: 50%;
         height: 65%;
         object-fit: cover;
     }
-
     #boite1 {
         background-color: white;
     }
+    
 
-    #boite1 h1 {
+    .boite h1 {
         display: flex;
         background-color: white;
         justify-content: center;
-        margin: 35px 10px 10px 25px;
+        font-size: 20px;
+    
     }
 
     .boite2 {
@@ -1069,10 +1114,11 @@ width: 50%;
         width: 100%;
         height: 15%;
     }
-.colone
-{
-    width: 100%;
-}
+
+    .colone {
+        width: 100%;
+    }
+
     ul {
         display: flex;
         flex-direction: column;
@@ -1081,5 +1127,6 @@ width: 50%;
 
     li {
         display: flex;
-        flex-flow:row wrap;
+        flex-flow: row wrap;
     }
+}
