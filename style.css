@@ -506,6 +506,7 @@ p {
     justify-content: space-around;
     position: absolute;
     z-index: 2;
+    border:0.19rem #dfdddd solid ;
 }
 
 #filtre i:hover {
@@ -526,7 +527,7 @@ p {
     padding: 0rem 0.9rem 0rem 3.125rem;
     background-color: #ffffff;
     border-radius: 9.375rem 9.375rem 9.375rem 9.375rem;
-    border: 0.19rem #f8efef solid;
+    border: 0.19rem #dfdddd solid;
     position: relative;
     z-index: 1;
 }
@@ -734,6 +735,13 @@ p {
     color: #c7c2c2 !important;
 }
 
+#lespluspopulaires .etoiles
+{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-top: 2px;
+}
 #footer {
     display: flex;
     justify-content: space-between;
