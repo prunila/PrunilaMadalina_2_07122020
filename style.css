@@ -419,11 +419,10 @@ p {
     margin-top: 2em;
     padding-bottom: 2em;
 }
-
+/*icone gps*/
 #boutonrecherche {
     display: flex;
-    color: white;
-    background-color: #ffffff;
+     background-color: #ffffff;
     border-radius: 0rem 0.9rem 0.9rem 0rem;
     align-items: center;
     justify-items: flex-start;
@@ -1003,7 +1002,7 @@ justify-content: center;
 
     .boite {
         width: 90%;
-        box-shadow: 3px 3px 20px #F2F2F2;
+        box-shadow: 3px 3px 20px rgb(230, 230, 217);
         height: 300px;
         margin: 10px 0 23px 0;
         background-color: white;
