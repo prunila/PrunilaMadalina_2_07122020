@@ -7,7 +7,7 @@
 div#page {
     max-width: 100%;
     min-width: 100%;
-  
+
     display: flex;
     flex-direction: column;
     padding: 0.8rem;
@@ -63,14 +63,14 @@ nav ul {
     display: flex;
     flex-grow: 1;
     justify-content: flex-end;
- 
+
     text-decoration: none;
     background-color: #ffffff;
 }
 
 ul {
     list-style: none;
-  width: 100%;
+    width: 100%;
 }
 
 li {
@@ -222,7 +222,7 @@ h4 {
     justify-content: center;
     align-items: center;
     align-content: space-around;
-max-width: 60%;
+    max-width: 60%;
     background-color: #F2F2F2;
     border-radius: 0.9rem;
 }
@@ -419,10 +419,11 @@ p {
     margin-top: 2em;
     padding-bottom: 2em;
 }
+
 /*icone gps*/
 #boutonrecherche {
     display: flex;
-     background-color: #ffffff;
+    background-color: #ffffff;
     border-radius: 0rem 0.9rem 0.9rem 0rem;
     align-items: center;
     justify-items: flex-start;
@@ -505,7 +506,7 @@ p {
     justify-content: space-around;
     position: absolute;
     z-index: 2;
-    border:0.19rem #dfdddd solid ;
+    border: 0.19rem #dfdddd solid;
 }
 
 #filtre i:hover {
@@ -734,13 +735,13 @@ p {
     color: #c7c2c2 !important;
 }
 
-#lespluspopulaires .etoiles
-{
+#lespluspopulaires .etoiles {
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     padding-top: 2px;
 }
+
 #footer {
     display: flex;
     justify-content: space-between;
@@ -863,8 +864,8 @@ footer ul li {
         display: flex;
         flex-wrap: wrap;
         width: 50%;
-       
- order: 2;
+
+        order: 2;
     }
 
 
@@ -900,7 +901,7 @@ footer ul li {
     .barre,
     .hebergements {
         display: flex;
-    justify-content: center;
+        justify-content: center;
         border-bottom: 0.20rem solid;
         width: 40%;
         font-size: 0.75rem;
@@ -910,68 +911,75 @@ footer ul li {
     .barre a,
     .hebergements a {
         display: flex;
-        
+
         font-size: 1rem;
     }
-    .barre a:hover, .hebergements a:hover
-    {
+
+    .barre a:hover,
+    .hebergements a:hover {
         border-top: none;
     }
-    #deuxtextes h1
-    {
-      margin-bottom: 0.5rem;
-        
-        
+
+    #deuxtextes h1 {
+        margin-bottom: 0.5rem;
+
+
     }
-#boutonrecherche 
-{
-justify-content: center;
-}
+
+    #boutonrecherche {
+        justify-content: center;
+    }
+
     #boitefiltre {
         display: flex;
         flex-wrap: wrap;
-    justify-content: space-around;
-        }
-    #titre
-    {
+        justify-content: space-around;
+    }
+
+    #titre {
         display: flex;
         width: 100%;
         height: 2.5rem;
     }
-#info
-{
-    display: flex;
-    justify-content: space-around;
 
-}
-#info p 
-{
-    font-size: 5vw;
-}
-#info i 
-{
-    width: 2.5rem;
-    height: 2rem;
-}
+    #info {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    #info p {
+        font-size: 5vw;
+    }
+
+    #info i {
+        width: 2.5rem;
+        height: 2rem;
+    }
+
     #filtre {
         display: flex;
-      align-items: flex-start;
-      
+        align-items: flex-start;
+
     }
-#billets, #enfant, #coeur, #chien
-{
-    padding-bottom: 0.9rem;
-}
-#Sejour
-{
-    background-color: white;
-    max-width: 100%;
-    
-}
+
+    #billets,
+    #enfant,
+    #coeur,
+    #chien {
+        padding-bottom: 0.9rem;
+    }
+
+    #Sejour {
+        background-color: white;
+        max-width: 100%;
+
+    }
+
     #sectionlocation {
         flex-wrap: wrap;
         flex-direction: column;
-      
+
         background-color: white;
         width: 100%;
 
@@ -1012,17 +1020,18 @@ justify-content: center;
         height: 65%;
         object-fit: cover;
     }
+
     #boite1 {
         background-color: white;
     }
-    
+
 
     .boite h1 {
         display: flex;
         background-color: white;
         justify-content: center;
         font-size: 20px;
-    
+
     }
 
     .boite2 {
